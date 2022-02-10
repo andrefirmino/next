@@ -3,7 +3,7 @@ import { useState } from 'react';
 function Home() {
     return (
       <div>
-          Home 3
+          Página Inicial
           <Contador />
       </div>)
 }
@@ -19,7 +19,7 @@ function Contador() {
     return (
         <div>
             <div>{contador}</div>
-            <button onClick={adicionarContador} id={contador}>Adicionar</button>
+            <button onClick={adicionarContador}>Adicionar</button>
         </div>
     )
 }
