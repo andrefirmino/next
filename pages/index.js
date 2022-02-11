@@ -3,13 +3,13 @@ import { useState } from 'react';
 function Home() {
     return (
       <div>
-          Página Inicial
+          Página Inicial 35
           <Contador />
       </div>)
 }
 
 function Contador() {
-    const [contador, setContador] = useState(4);
+    const [contador, setContador] = useState(1);
 
     function adicionarContador(){
         setContador(contador+1)
